@@ -8,7 +8,7 @@ terms_and_conditions: templates/terms_and_conditions.html
 image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas a libero nec sagittis.
-evaluation_script: evaluation.py
+evaluation_script: evaluation_script.zip
 remote_evaluation: False
 is_docker_based: False
 start_date: 2019-01-01 00:00:00
@@ -22,14 +22,14 @@ leaderboard:
         "labels": ["ML", "NLP", "CV", "Total"],
         "default_order_by": "Total",
         "metadata": {
-          # "Metric1": {
-          #   "sort_ascending": True,
-          #   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          # },
-          # "Metric2": {
-          #   "sort_ascending": True,
-          #   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          # }
+          "ML": {
+            "sort_ascending": True,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          },
+          "NLP": {
+            "sort_ascending": True,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          }
         }
       }
 
