@@ -43,14 +43,6 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
     print("Evaluating for Test Phase")
     output["result"] = [
         {
-            "train_split": {
-                "ML": random.randint(0, 99),
-                "NLP": random.randint(0, 99),
-                "CV": random.randint(0, 99),
-                "Total": random.randint(0, 99),
-            }
-        },
-        {
             "test_split": {
                 "ML": random.randint(0, 99),
                 "NLP": random.randint(0, 99),
