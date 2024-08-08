@@ -70,7 +70,7 @@ challenge_phases:
         type: checkbox
         options: ["alpha", "beta", "gamma"]
       - name: TrueFalseField
-        description: Sample
+        description: Test
         type: boolean
         required: True
     is_restricted_to_select_one_submission: False
