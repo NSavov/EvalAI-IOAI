@@ -19,18 +19,18 @@ leaderboard:
   - id: 1
     schema:
       {
-        "labels": ["Metric1", "Metric2", "Metric3", "Total"],
+        "labels": ["ML", "NLP", "CV", "Total"],
         "default_order_by": "Total",
         "metadata": {
-          "Metric1": {
+          "ML": {
             "sort_ascending": True,
             "description": "ML Scores",
           },
-          "Metric2": {
+          "NLP": {
             "sort_ascending": True,
             "description": "NLP Scores",
           },
-          "Metric3": {
+          "CV": {
             "sort_ascending": True,
             "description": "CV Scores",
           },
