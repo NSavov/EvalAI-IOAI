@@ -115,6 +115,9 @@ dataset_splits:
   - id: 1
     name: Test Split
     codename: test_split
+  - id: 2
+    name: Garbage Split
+    codename: garbage_split
 
 challenge_phase_splits:
   - challenge_phase_id: 1
