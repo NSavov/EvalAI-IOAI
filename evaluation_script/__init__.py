@@ -42,7 +42,16 @@ def install_local_package(folder_name):
 )
 
 install("modal")
-subprocess.run([sys.executable, "-m", "python", "-m", "modal", "setup"])
+
+print("SETTING UP MODAL")
+try:
+    subprocess.run([sys.executable, "-m", "python", "-m", "modal", "setup"])
+except subprocess.CalledProcessError as e:
+    print(f"Error occurred while installing: {e.stderr}")
+except FileNotFoundError:
+    print("Error: Pip is not found. make sure you have pip installed.")
+except PermissionError:
+    print("Error: Permission denied. ")
 
 # install_local_package("package_folder_name")
 
