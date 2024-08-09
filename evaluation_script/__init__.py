@@ -42,7 +42,7 @@ def install_local_package(folder_name):
 )
 
 install("modal")
-subprocess.check_call([sys.executable, "-m", "python", "-m", "modal", "setup"])
+subprocess.run([sys.executable, "-m", "python", "-m", "modal", "setup"])
 
 # install_local_package("package_folder_name")
 
