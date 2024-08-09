@@ -1,5 +1,5 @@
 {
-	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1NDY4ODU0MiwianRpIjoiZDJhZjAyYzYxZDM2NGUyYTkzODkzM2MzMjIwOTRkYjQiLCJ1c2VyX2lkIjo1MDh9.EQMEJxWSmzZbnW8J3B3hG8sGz0jR_13D5vYA31Bn3Iw",
-	"team_pk": "335",
-	"evalai_host_url": "https://staging.eval.ai"
+	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1NDY4MzMyMSwianRpIjoiOTRhOTM4YzhlODRiNDdmOTk2MjE4ZDZiYzE2MmQ5Y2EiLCJ1c2VyX2lkIjo0NjQzNX0.Z5f1ax8kWbrtDCntoegXrv5m8EEtQ4Zp59wbfiJZx58",
+	"team_pk": "3500",
+	"evalai_host_url": "https://eval.ai"
 }
