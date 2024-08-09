@@ -34,7 +34,7 @@ def install_local_package(folder_name):
     ]
 )
 
-install("modal==0.56")
+install("modal==0.56.4641")
 subprocess.check_call([sys.executable, "-m", "python", "-m", "modal", "setup"])
 
 # install_local_package("package_folder_name")
