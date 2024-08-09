@@ -76,7 +76,7 @@ challenge_phases:
     #   - name: TrueFalseField
     #     description: Sample
     #     type: boolean
-    is_restricted_to_select_one_submission: True
+    is_restricted_to_select_one_submission: False
     is_partial_submission_evaluation_enabled: False
 
 dataset_splits:
