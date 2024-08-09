@@ -47,7 +47,7 @@ challenge_phases:
     description: templates/challenge_phase_2_description.html
     leaderboard_public: False
     is_public:  False
-    is_submission_public: True
+    is_submission_public: False
     start_date: 2023-08-08 00:00:00
     end_date: 2025-08-10 23:59:59
     test_annotation_file: annotations/test_annotations_testsplit.json
