@@ -43,9 +43,8 @@ def install_local_package(folder_name):
 
 install("modal")
 
-print("SETTING UP MODAL")
 try:
-    subprocess.run([sys.executable, "-m", "python", "-m", "modal", "setup"])
+    subprocess.run([sys.executable, "-m", "modal", "setup"])
 except subprocess.CalledProcessError as e:
     print(f"Error occurred while installing: {e.stderr}")
 except FileNotFoundError:
