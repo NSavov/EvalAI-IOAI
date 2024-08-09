@@ -47,7 +47,7 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
                 "ML": random.randint(0, 99),
                 "NLP": random.randint(0, 99),
                 "CV": random.randint(0, 99),
-                "Total": random.randint(0, 99),
+                "Total": 5,
                 "Metric1": random.randint(0, 99),
                 "Metric2": random.randint(0, 99),
                 "Metric3": random.randint(0, 99)
