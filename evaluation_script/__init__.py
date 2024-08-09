@@ -14,8 +14,15 @@ def install(package):
 
     # Args:
     #     package ([str]): Package name with version
-    
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    try:
+        subprocess.run([sys.executable,"-m","pip","install",package])
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred while installing {package}: {e.stderr}")
+    except FileNotFoundError:
+        print("Error: Pip is not found. make sure you have pip installed.")
+    except PermissionError:
+        print("Error: Permission denied. ")
+    # subprocess.run([sys.executable, "-m", "pip", "install", package])
 
 
 def install_local_package(folder_name):
