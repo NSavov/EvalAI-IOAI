@@ -22,20 +22,8 @@ leaderboard:
         "labels": ["ML", "NLP", "CV", "Total"],
         "default_order_by": "Total",
         "metadata": {
-          "ML": {
-            "sort_ascending": True,
-            "description": "ML Scores",
-          },
-          "NLP": {
-            "sort_ascending": True,
-            "description": "NLP Scores",
-          },
-          "CV": {
-            "sort_ascending": True,
-            "description": "CV Scores",
-          },
           "Total": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "Total Scores!",
           }
         }
