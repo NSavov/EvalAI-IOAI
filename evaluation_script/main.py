@@ -42,16 +42,24 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
     output = {}
     print("Evaluating for Test Phase")
     output["result"] = [
+        # {
+        #     "test_split": {
+        #         "ML": random.randint(0, 99),
+        #         "NLP": random.randint(0, 99),
+        #         "CV": random.randint(0, 99),
+        #         "Total": random.randint(0, 99),
+        #         "Metric1": random.randint(0, 99),
+        #         "Metric2": random.randint(0, 99),
+        #         "Metric3": random.randint(0, 99)
+        #     }
+        # },
         {
-            "test_split": {
-                "ML": random.randint(0, 99),
-                "NLP": random.randint(0, 99),
-                "CV": random.randint(0, 99),
-                "Total": random.randint(0, 99),
+                "split": "train_split",
+                "show_to_participant": True,
+                "accuracies": {
                 "Metric1": random.randint(0, 99),
                 "Metric2": random.randint(0, 99),
-                "Metric3": random.randint(0, 99)
-            }
+                "Metric3": random.randint(0, 99)},
         },
     ]
     # To display the results in the result file
